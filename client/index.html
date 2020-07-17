@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bark! Socialize with Dogs!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Bark! Socialize with Dogs!</h1>
+        </header>
+
+        <main>
+            <form class="bark-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="content">Text</label>
+                    <textarea type="content" class="form-control" id="content" name="content"></textarea> 
+                </div>
+                <div class="form-group">
+                    <label for="image">Icon</label>
+                    <input type="file" class="form-control-file" id="image" name="image">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Bark! 🐶</button> 
+                </div>
+            </form>
+            <div class="loading">
+                <img src="loading.gif">
+            </div>
+            <div class="barks">
+                
+            </div>
+        </main>
+        <script src="client.js"></script>
+    </body>
+</html>

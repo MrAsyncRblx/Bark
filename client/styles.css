@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+}
+
+.bark-form {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+}
+
+.barks {
+    width: 80%;
+    margin: auto;
+}
